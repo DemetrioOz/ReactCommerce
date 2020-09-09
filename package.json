@@ -1,0 +1,31 @@
+{
+  "name": "ReactCommerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mdama <mcafeesociety@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "axios": "^0.20.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development"
+  }
+}
